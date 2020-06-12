@@ -1,4 +1,4 @@
-![Alt Text](/Users/AAA/Work/Projects/12_Quantum/facerec/src_python/misc/demo.gif)
+![Alt Text](misc/demo.gif)
 
 # FACE RECOGNITION 
 
@@ -7,7 +7,7 @@ This project is part of the cooperation between QuantumLabs and Miguel Gonzalez 
 
 ## ABOUT
 
-The FaceRec (add hyperlink here) class provides several tools for the complete face recognition process.
+The [FaceRec class](facerec.py) provides several tools for the complete face recognition process.
 1. Face detection
 2. Landmark detection
 3. Embedding computation
