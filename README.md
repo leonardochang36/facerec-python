@@ -1,9 +1,9 @@
-![Alt Text](misc/demo.gif)
-
 # FACE RECOGNITION 
 
 A Python framework for efficient and accurate face recognition. 
 This project is part of the cooperation between QuantumLabs and Miguel Gonzalez / Leonardo Chang.
+
+![Alt Text](misc/demo.gif)
 
 ## ABOUT
 
