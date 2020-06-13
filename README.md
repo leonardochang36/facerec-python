@@ -48,4 +48,10 @@ else:
 
 Run the `fr_demo.py` for more complete examples.
 
+## WANT TO TRY WITH YOUR FACE?
+
+Add a folder with your name containing some pics of you to the `./celebs/` folder.
+
+![Alt Text](misc/celebs_dataset.jpg)
+
 
