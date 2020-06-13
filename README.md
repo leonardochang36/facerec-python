@@ -1,4 +1,4 @@
-# FACE RECOGNITION 
+# FACE RECOGNITION FRAMEWORK
 
 A Python framework for efficient and accurate face recognition. 
 This project is part of the cooperation between QuantumLabs and Miguel Gonzalez / Leonardo Chang.
@@ -7,7 +7,7 @@ This project is part of the cooperation between QuantumLabs and Miguel Gonzalez 
 
 ## ABOUT
 
-The [FaceRec class](facerec.py) provides several tools for the complete face recognition process.
+The [FaceRec class](facerec/facerec.py) provides several tools for the complete face recognition process.
 1. Face detection
 2. Landmark detection
 3. Embedding computation
