@@ -2,13 +2,13 @@ import sys
 import argparse
 import logging
 import cv2 as cv
-import facerec
+from facerec import facerec
 
 
 def main(args):
 
     # create instance of FaceRec class with resources folder
-    fr = facerec.FaceRec('./resources')
+    fr = facerec.FaceRec('./facerec/resources')
 
     # load images
     img1 = cv.imread(args.subject1)

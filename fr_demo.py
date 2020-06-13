@@ -6,13 +6,13 @@ import time
 import os
 import cv2 as cv
 import re
-import facerec
+from facerec import facerec
 
 
 def main(args):
 
     # create instance of FaceRec class with resources folder
-    fr = facerec.FaceRec('./resources')
+    fr = facerec.FaceRec('./facerec/resources')
 
     # ===============================================================================
     # ========--- DO FACE VERIFICATION (1 vs. 1) ---=================================
@@ -180,15 +180,13 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog=sys.argv[0])
 
     # Optional arguments
-    # parser.add_argument("-s1", "--subject1", default='dataset/Letty/letty5.JPG',
-    #                     help="Enter Subject 1 image url")
     parser.add_argument("-s1", "--subject1", default=argparse.SUPPRESS,
                         help="Enter Subject 1 image url")
     parser.add_argument("-s2", "--subject2", default=argparse.SUPPRESS,
                         help="Enter Subject 2 image url")
     parser.add_argument("-webcam", "--use_webcam", default=True,
                         help="Use webcam as input")
-    parser.add_argument("-g", "--gallery", default='./dataset/',
+    parser.add_argument("-g", "--gallery", default='./celebs/',
                         help="Path to the gallery folder")
 
     args_ = parser.parse_args()
