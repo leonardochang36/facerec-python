@@ -13,9 +13,22 @@ The [FaceRec class](facerec.py) provides several tools for the complete face rec
 3. Embedding computation
 4. Embeddings comparison
 
-## USAGE
+## INSTALLATION GUIDE
 
-The script `simplest_example.py` provides a getting started to the code.
+The provided requirements.txt file can be used to install all the required packages 
+(not too many ;) just OpenCV and NumPy). Use the command `pip install –r requirements.txt`
+
+## RUN THE PROJECT
+
+Run our very basic example `simplest_example.py`. Try entering different images in args -s1 and -s2.
+
+```
+python simplest_example.py -s1 celebs/Brad_Pitt/brad_1.jpg -s2 celebs/Brad_Pitt/brad_2.jpg
+```
+
+## BASIC FUNCTIONALITIES
+
+The script `simplest_example.py` has a basic flow for face verification.
 
 ```
 # create instance of FaceRec class with resources folder
