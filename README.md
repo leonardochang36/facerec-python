@@ -31,8 +31,8 @@ img1 = cv.cvtColor(img1, cv.COLOR_BGR2RGB)
 img2 = cv.cvtColor(img2, cv.COLOR_BGR2RGB)
 
 # compute 128-D embeddings for each image
-e1, _ = fr.face_embedding(img1)
-e2, _ = fr.face_embedding(img2)
+e1 = fr.face_embedding(img1)
+e2 = fr.face_embedding(img2)
 
 # compute euclidean distance
 d = fr.face_distance(e1, e2)
