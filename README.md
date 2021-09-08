@@ -1,7 +1,8 @@
 # FACE RECOGNITION FRAMEWORK
 
 A simple Python framework and example for efficient and accurate face recognition. 
-Authors: Miguel Gonzalez / Leonardo Chang.
+
+_Authors: Miguel Gonzalez / Leonardo Chang._
 
 ![Alt Text](misc/demo.gif)
 
